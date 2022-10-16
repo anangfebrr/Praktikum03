@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <table align="center" style="border: 1px solid; margin-top: 30px; ">
+        <tr>
+            <td style="padding-right: 120px;">Home   |</td>
+            <td style="padding-right: 120px;">Generate Link  |</td>
+            <td style="padding-right: 120px;">Transaction History    |</td>
+            <td style="padding-right: 120px;">Policy     |</td>
+            <td style="padding-right: 120px;">Logout         </td>
+        </tr>
+    </table>
+
+<form action="Hasil-Form-Pemesanan_0110222035_Anang Febryan Sutarja.html">    
+    <table style="float: right; margin-bottom: 50px; margin-top: 40px; margin-right: 270px;">
+        <tr>
+            <td><label for="Title">Title here</label></td>
+            <td>:</td>
+            <td><input type="text" id="Title" placeholder="Nama Barang"></td>
+        </tr>
+        <tr>
+            <td><label for="desc">Description</label></td>
+            <td>:</td>
+            <td><textarea name="" id="desc" cols="21" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="Number">Account Number</label></td>
+            <td>:</td>
+            <td>
+                <input type="number" id="Number" placeholder="123-456-789">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="bank">Bank</label></td>
+            <td>:</td>
+            <td>
+                <select name="Bank" id="bank">
+                    <option value="BCA">BCA</option>
+                    <option value="Mandiri">Mandiri</option>
+                    <option value="BNI">BNI</option>
+                    <option value="BRI">BRI</option>
+                    <option value="CIMB Niaga">CIMB Niaga</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="AH">Account Holder</label></td>
+            <td>:</td>
+            <td><input type="text" id="AH" placeholder="Name Here"></td>
+        </tr>
+        <tr>
+            <td><label for="transaction">Transaction</label></td>
+            <td>:</td>
+            <td><input type="Number" id="transaction" style="width: 30px;"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><small>*if the transaction is for 3 person,
+                choose 3 from the drop-down list</small>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>
+                <div>
+                    <input type="checkbox" id="Mobile">
+                    <label for="Mobile">Send to Mobile Phone</label>
+                </div>
+                <div>
+                    <input type="Checkbox" id="Email">
+                    <label for="Email">Send to Email</label>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="MP">Send to Mobile Phone</label></td>
+            <td>:</td>
+            <td>
+                <input type="tel" id="MP" 
+                pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}" placeholder="+62">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Mail">Send to Email</label></td>
+            <td>:</td>
+            <td><input type="email" id="Mail" placeholder="gulugulu@gmail.com"></td>
+        </tr>
+        <tr>
+            <td><br></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><input type="Submit" value="Generate Nabr Link"></td>
+        </tr>
+    </table>
+
+    <img src="poto/Jam.jfif" alt="Jam" style="margin-left: 250px;">
+    <br>
+    <input type="Submit" value="Upload Picture" style="margin-left: 250px;">
+</form>
+</body>
+</html>
